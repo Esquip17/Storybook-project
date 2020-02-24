@@ -1,3 +1,91 @@
 .button-large {
   padding: 10px 50px;
 }
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+}
+
+.button-primary {
+  background-color: #0069d9;
+  color: white;
+  border: #0069d9;
+}
+.button-primfade {
+  background-color: #2678a8ea;
+  color: white;
+}
+.button-primshad {
+  background-color: #bbcfe4;
+  color: #0069d9;
+}
+.button-lprimshad {
+  padding: 10px 50px;
+  background-color: #bbcfe4;
+  color: #0069d9;
+}
+.button-lprimfade {
+  padding: 10px 50px;
+  background-color: #2678a8ea;
+  color: white;
+}
+.button-primeoutline {
+  background-color: none;
+  border-radius: 2px;
+  border-color: #0069d9;
+  color: #0069d9;
+}
+.button-lprimeoutline {
+  padding: 10px 50px;
+  background-color: none;
+  border-radius: 2px;
+  border-color: #0069d9;
+}
+.button-warning {
+  background-color: orange;
+  color: white;
+}
+.button-warfade {
+  background-color: rgb(231, 186, 39);
+  color: white;
+}
+.button-warnshad {
+  background-color: rgb(243, 208, 144);
+  color: rgb(194, 129, 8);
+}
+.button-danger {
+  background-color: #ff0041;
+  color: white;
+}
+.button-danshad {
+  background-color: #eea0b4;
+  color: #ff0041;
+}
+.button-danfade {
+  background-color: #ff0040b0;
+  color: white;
+}
+.button-success {
+  background-color: #00d300;
+  color: white;
+}
+.button-sucshad {
+  background-color: #a1cca1;
+  color: #115211;
+}
+.button-sucfade {
+  background-color: #27ec90;
+  color: white;
+}
+.button-default {
+  background-color: black;
+  color: white;
+}
+.button-defshad {
+  background-color: rgb(172, 164, 164);
+  color: black;
+}
+.button-defade {
+  background-color: rgb(65, 60, 60);
+  color: white;
+}

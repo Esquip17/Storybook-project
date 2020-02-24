@@ -6,8 +6,29 @@ const Button = props => {
     /* <button style={props.style}>{props.label}</button> */
   }
   let classList = "";
-  let types = ["primary", "danger", "success", "warning"];
-  if (types.includes(props.types)) {
+  let types = [
+    "primary",
+    "danger",
+    "success",
+    "warning",
+    "warnshad",
+    "default",
+    "defade",
+    "defshad",
+    "danfade",
+    "sucfade",
+    "warfade",
+    "primfade",
+    "lprimfade",
+    "primshad",
+    "lprimshad",
+    "danshad",
+    "warnshad",
+    "sucshad",
+    "primeoutline",
+    "lprimeoutline"
+  ];
+  if (types.includes(props.type)) {
     classList += `button-${props.type}`;
   }
   if (props.large) {
